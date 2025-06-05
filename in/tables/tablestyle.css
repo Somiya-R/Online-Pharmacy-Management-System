@@ -1,0 +1,66 @@
+*{
+	font-family: sans-serif;
+}
+
+body{
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+th{
+	border-bottom: 2px solid;
+}
+
+td{
+	padding: 5px;
+}
+
+.datatable{
+	left: 10px;
+}
+
+tr:nth-child(odd){
+	background: rgba(0, 0, 0, .1);
+}
+
+tr:nth-child(even){
+	background: rgba(255, 255, 255, .2);
+}
+
+.dataedit{
+	margin-left: 100px;
+	text-align: center;
+	height: 155px;
+	width: 200px;
+	background: rgba(255, 255, 255, .1);
+	border: 1px solid;
+	border-radius: 10px;
+	transition: height .2s;
+}
+
+#opmain{
+	display: inline;
+}
+
+.opbox{
+	display: none;
+}
+button,input[type="submit"]{
+	padding:5px;
+	margin: 5px;
+	min-width: 120px;
+	border:0.1em solid #FFFFFF;
+	border-radius:0.5em;
+	box-sizing: border-box;
+	text-decoration:none;
+	font-family: SpaceGroteskLight;
+	font-weight:300;
+	color:#000000;
+	text-align:center;
+	transition: all 0.2s;
+}
+	
+button:hover,input[type="submit"]:hover{
+		color:#FFFFFF;
+		background-color:#000000;
+}
